@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: limegreen;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-container {
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+input, select {
+    background: #444;
+    color: white;
+}
+
+button {
+    background-color: limegreen;
+    color: black;
+    cursor: pointer;
+}
+
+.user-list {
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.user-card {
+    background: #444;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
